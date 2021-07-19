@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Holo</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" >
+      <!--Custom css-->
+      <link rel="stylesheet" href="css/style.css">
+      <!--Font link-->
+      <script src="https://kit.fontawesome.com/2925528d2d.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <!--Menu Overlay start-->
+      <div id="myNav" class="overlay">
+         <!--overlay close button-->
+         <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+ 
+         <!--overlay content -->
+         <div class="overlay-content">
+             <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Web Platform</a></li>
+                 <li><a href="#">AR App</a></li>
+                 <li><a href="#">Pricing</a></li>
+                 <li class="nav-item">
+                  <a class="getstarted scrollto" href="#">Login</a>
+              </li>
+             </ul>
+         </div>
+     </div>
+
+      <!--End-->
+      <!--Header area start-->
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="#"><img src="images/holopundits-logo.png" class="logo"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Web Platform</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">AR App</a>
+                     </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="getstarted scrollto" href="#">Login</a>
+                 </li>
+                 <li class="nav-item">
+                  <div class="navMenu" onclick="openNav()">&#9776; </div>
+                 </li>
+             
+               
+                 
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!--Header area end-->
+      <!--Hero section start-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="images/slider-01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+               <div class="embed-responsive embed-responsive-16by9">
+                  <video src="video/nature.mp4" alt="second slide" controls autoplay>NOT SUPPORTED</video>
+                </div>
+               </div>
+            <div class="carousel-item">
+               <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <!--Hero section end-->
+
+
+      <!--About Sec start-->
+      <section class="section" id="about">
+         <div>
+            <div class="container" id="welcome">
+         <div class="row">
+           <div class="col-md-6">
+            <div class="welcome text-center">
+              <img src="images/what-totalar-icon.png">
+              <h3>What is totalAR?</h3>
+              <p>TotalAR is a platform for organizations to publish their content in augmented reality.</p>
+            </div>
+           </div>
+           <div class="col-md-6">
+            <div class="welcome text-center">
+              <img src="images/why-totalar-icon.png">
+              <h3>Why use TotalAR?</h3>
+              <p>TotalAR Can bring life to print and provide supplemental information enhancing customer Experience.</p>
+            </div>
+           </div>
+         </div>
+            </div>
+            <div class="mt-20"></div>
+        </div>
+         <div class="container">
+    
+          <h2 class="text-center title-head">Impactful AR Delivered</h2>
+            <p class="text-center">Redefining Customer Experience</p>
+      <!--Divider start-->
+      <div class="text-center dots">
+        <span class='dot dot-success'></span>
+        <span class='dot dot-warning'></span>
+  
+      </div>
+
+      <!--End-->
+            <div class="row align-items-center pt-30">
+               <div class="col-md-6">
+                  <div id="circle-lines">
+                     <div class="holo-list">
+                        <!--Point 1-->
+                        <div class="holo-item">
+                           <div class="holo-icon status-outfordelivery">
+                              <i class="fas fa-paper-plane"></i>
+                           </div>
+                           <div class="holo-content">Drive Customer engagement and improve satisfaction</div>
+                        </div>
+                        <!--End-->
+                        <!--Point 2-->
+                        <div class="holo-item">
+                           <div class="holo-icon status-outfordelivery">
+                              <i class="fas fa-paper-plane"></i>
+                           </div>
+                           <div class="holo-content">Immersive storytelling platform with 3D Models</div>
+                        </div>
+                        <!--End-->
+                        <!--Point 3-->
+                        <div class="holo-item">
+                           <div class="holo-icon status-outfordelivery">
+                              <i class="fas fa-paper-plane"></i>
+                           </div>
+                           <div class="holo-content">Create relevant content focused on sales</div>
+                        </div>
+                        <!--End-->
+                     </div>
+                  </div>
+               </div>
+               <div class="imageSection d-flex col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"><img src="images/tab-banner-01.png" alt="" class="react-reveal mobile-ai" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-603216234333261-3;"></div>
+            </div>
+         </div>
+      </section>
+      <!--About sec end-->
+      <!--Enhance start-->
+      <section class="section" id="made">
+         <div class="container">
+            <h2 class="text-center title-head">Made for everyone</h2>
+            <p class="text-center sub-title-white">App Features</p>
+            <div class="row align-items-center">
+               <div class="col-md-6 ms-auto">
+                  <button type="button" class="btn btn-primary btn-app">Focus and scan on a printed image and bring content to life</button>
+                  <button type="button" class="btn btn-primary btn-app">Use TAR Codes to make your content dynamic</button>
+                  <button type="button" class="btn btn-primary btn-app">Use a target image to display different information</button>
+                  <button type="button" class="btn btn-primary btn-app">Keep Your customers engaged and connected</button>
+               </div>
+               <div class="col-md-6">
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!--End-->
+      <!--Download Sec start-->
+      <section class="section" id="download">
+         <div class="container">
+            <div class="titlebox">
+               <h2 class="text-center title-head">Experience Phenomenal AR</h2>
+               <p class="text-center sub-title">Download TotalAR App Now</p>
+                     <!--Divider start-->
+      <div class="text-center dots">
+        <span class='dot dot-success'></span>
+        <span class='dot dot-warning'></span>
+  
+      </div>
+<div class="row text-center">
+   <div class="col-md-4 d-flex justify-content-center">
+<div class="app-img">
+   <img src="images/download-holopundits-app-google-play-store.png" class="img-fluid" alt="app-store-img">
+</div>
+   </div>
+   <div class="col-md-4 d-flex justify-content-center">
+      <div class="app-img">
+         <img src="images/download-holopundits-app-google-play-store.png" class="img-fluid" alt="app-store-img">
+      </div>
+         </div>
+
+   <div class="col-md-4">
+      <div class="d-flex justify-content-center align-items-center pos-30">
+    
+            <img src="images/download-totalar-app-qr-code.png" class="img-fluid" alt="qrcode"/>
+     
+      </div>
+   </div>
+</div>
+      <!--End-->
+      <div class="row">
+         <div class="col-md-4 box">
+           <div class="content">
+             <div class="img-container">
+               <img src="images/app-scan-01.jpg" class="img-fluid">
+               <button type="button" class="btn btn-primary btn-serv">Click Here</button>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-4 box">
+           <div class="content">
+             <div class="img-container">
+               <img src="images/app-scan-03.jpg" class="img-fluid">
+               <button type="button" class="btn btn-primary btn-serv">Click Here</button>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-4 box">
+           <div class="content">
+             <div class="img-container">
+               <img src="images/app-scan-05.jpg" class="img-fluid">
+               <button type="button" class="btn btn-primary btn-serv">Click Here</button>
+             </div>
+           </div>
+         </div>
+       </div>
+            </div>
+         </div>
+      </section>
+      <!--End-->
+      <!--Enhance start-->
+      <section class="section" id="enhance">
+         <div class="container">
+            <div class="titlebox">
+               <h2 class="text-center title-head">AR Enhanced Content</h2>
+               <p class="text-center sub-title">totalAR Platform</p>
+                     <!--Divider start-->
+      <div class="text-center dots">
+        <span class='dot dot-success'></span>
+        <span class='dot dot-warning'></span>
+  
+      </div>
+
+      <!--End-->
+            </div>
+            <div class="row align-items-center">
+               <div class="col-md-4 ms-auto order-2">
+                  <div class="holo-check-list">
+                     <img src="images/platform-icon-01.png" alt="Concept Design">
+                     <span>Dynamic Platform</span>
+                     <p class="e-desc">One of its kind platform that allows companies to develop branded content</p>
+                  </div>
+                  <div class="holo-check-list">
+                     <img src="images/platform-icon-02.png" alt="Concept Design">
+                     <span>Dynamic Platform</span>
+                     <p class="e-desc">One of its kind platform that allows companies to develop branded content</p>
+                  </div>
+               </div>
+               <div class="col-md-6 aos-init aos-animate" data-aos="fade-right">
+                  <img src="images/holopundits-laptop.gif" alt="Image" class="img-fluid">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--End-->
+      <!--Features sec start-->
+      <section id="features" class="padd-section text-center">
+         <div class="container aos-init aos-animate" data-aos="fade-up">
+            <div class="titlebox text-center">
+               <h2 class="text-center title-head">Customize Your Content</h2>
+               <p class="text-center sub-title">Who can use TotalAR?</p>
+                     <!--Divider start-->
+      <div class="text-center dots">
+        <span class='dot dot-success'></span>
+        <span class='dot dot-warning'></span>
+  
+      </div>
+
+      <!--End-->
+            </div>
+            <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/publisher-bg.jpg" alt="img">
+                     <h4>Publishers</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/education-bg.jpg" alt="img">
+                     <h4>Education</h4>
+                     <p>Introduce the TotalAR Magic to academic Curriculum</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/retailers-bg.jpg" alt="img">
+                     <h4>Retailers</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/printmedia-bg.jpg" alt="img">
+                     <h4>Print Media</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/adagencies-bg.jpg" alt="img">
+                     <h4>Ad Agencies</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+               </div>
+  
+            </div>
+            <div class="row">
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/automobiles-bg.jpg" alt="img">
+                     <h4>Manufacture</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/infrastructure-bg.jpg" alt="img">
+                     <h4>Infrastructure</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/public-services-bg.jpg" alt="img">
+                     <h4>Public Sector</h4>
+                     <p>Access , analyze interpret and apply volumes of informations fast</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/retailers-bg.jpg" alt="img">
+                     <h4>Real Estate</h4>
+                   
+                     <p>Accurately Visualize large buildings through augmented 3D Models</p>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="feature-block">
+                     <img src="images/construction-bg.jpg" alt="img">
+                     <h4>Construction</h4>
+                     <p>Opportunity to virtually
+                        Explore unbuilt Properties</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Features end-->
+      <!--Footer start-->
+      <footer class="site-footer" id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-4">
+                  <div class="footer-info">
+                    <h4 class="footer-title">A Product From</h4>
+                   <div>
+                    <img src="images/holopundits-white-logo.png" class="footer-logo">
+                   </div>
+                     <button type="button" class="btn btn-warning btn-store"><i class="fab fa-app-store"></i> App Store</button>
+                     <button type="button" class="btn btn-warning btn-play"><i class="fab fa-google-play"></i> Google Play</button>
+                  </div>
+               </div>
+               <div class="col-6 col-md-4">
+                  <div class="footer-info">
+                     <div class="f-icon">
+                        <i class="fas fa-building"></i>
+                     </div>
+                     <h6>Corporate Head Quarters</h6>
+                     <p><i class="fas fa-map-marker-alt"></i> 425 Metro Place North
+                        Suite 440 Dublin , OH 43017 USA
+                     </p>
+                     <p><i class="fas fa-mobile"></i> Direct +1614-707-5225</p>
+                  </div>
+               </div>
+               <div class="col-6 col-md-4">
+                  <div class="footer-info">
+                     <div class="f-icon">
+                        <i class="fas fa-globe-europe"></i>
+                     </div>
+                     <h6>Global Technology Center</h6>
+                     <p><i class="fas fa-map-marker-alt"></i> SKCL Infinite Towers , A21* A22
+                        Thiru-Vi-Ka Ind, Estate , Guindy
+                        Chennai - 600032 , India
+                     </p>
+                     <p><i class="fas fa-mobile"></i> Direct +914422501363</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--Footer end-->
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fas fa-arrow-up"></i></a>
+      <!--Custom js-->
+      <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+      
+      <script src="js/jquery-3.5.1.slim.min.js" ></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>
