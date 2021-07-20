@@ -524,6 +524,9 @@ img.footer-logo {
  img.logo{
    width:150px;
  }
+ .navMenu{
+   display:none;
+ }
 }
 
 @media (min-width:320px)  { 
@@ -540,6 +543,18 @@ img.footer-logo {
     z-index: 1000;
     position: relative;
     border-radius: 25px;
+}
+.navMenu{
+  display: none;
+}
+.app-img {
+  margin-top: 30px;
+}
+.content {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  margin-top: 15px;
 }
  }
 @media only screen and (min-device-width: 768px){
